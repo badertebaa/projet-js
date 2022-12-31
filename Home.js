@@ -75,7 +75,7 @@
 ];
  
 
-while(1){
+
 setTimeout(() => {
     let c=Math.floor(Math.random() * 10);
     let b=Math.floor(Math.random() * 10);
@@ -91,5 +91,5 @@ setTimeout(() => {
      document.getElementsByClassName("corses-name")[2].innerHTML=courses[d].title;
      document.getElementsByClassName("price")[2].innerHTML=courses[d].price;
   }, 3000);
-}
+
 
